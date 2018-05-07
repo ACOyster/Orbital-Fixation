@@ -4,6 +4,9 @@
     "context": "server",
     "date": "2018-04-27",
     "description": "Changes and Additions to the Orbital Layer that I think add a touch more depth without shifting the game's focus too strongly.",
+    "dependencies": [
+        "com.wondible.pa.hodgepodge"
+    ],
     "display_name": "Orbital Fixation",
     "identifier": "com.acesoyster.pa.orbital_fixation",
     "icon": "",
@@ -12,7 +15,7 @@
     "version": "0.0.1",
     "scenes": {
         "global_mod_list": [
-            "coui://ui/mods/com.acesoyster.pa.orbital_fixation/unit_select.js"
+            "coui://ui/mods/com.acesoyster.pa.orbital_fixation/global.js"
         ]
     },
     "dependencies": [

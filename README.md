@@ -39,7 +39,7 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 - Remove energy consumption
 - Changed into a T1 unit
 
-##### SSX
+##### SXX
 - Damage decreased from 1000/shot to 400/shot
 - Max speed increased from 25 to 30
 - Braking rate increased from 25 to 30
@@ -82,8 +82,11 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 
 ## New Units
 ##### Perseid
-- 
+- Tier 2 Orbital Missile Launcher
+- Works similarly to an SXX, but slower and higher damage
 
 ##### Valkyrie
-- 
+- Tier 2 Orbital Fighter
 
+##### Not Named
+- Tier 2 Orbital Sniper
