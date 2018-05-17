@@ -102,3 +102,6 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 - T2 triangle added to Solar Array SI
 - Energy mark removed from Jig SI
 - Omega SI now has support cross and no anti-surface lines
+
+##### Orbital Speeds
+- All unit orbital speeds increased by a 3:5 ratio
