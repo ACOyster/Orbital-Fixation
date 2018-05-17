@@ -54,8 +54,7 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 - Health reduced from 4000 to 3000
 - Cost reduced from 14000 to 12000
 - Remove anti-surface weapon
-- Damage increased from 65/shot to 100/shot
-- Add splash, 20 full radius, 30 splash radius
+- Add splash, 10 full radius, 20 splash radius
 - Add combat fabricator build tool, 200/s
 
 ##### Helios
@@ -83,10 +82,23 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 ## New Units
 ##### Perseid
 - Tier 2 Orbital Missile Launcher
-- Works similarly to an SXX, but slower and higher damage
+- Works similarly to an SXX
+- Slower and higher damage
 
 ##### Valkyrie
 - Tier 2 Orbital Fighter
+- 3 times the health of an Avenger, 4 times the DPS, and does small splash
+- Slower turn rate
 
-##### Not Named
+##### Diomedes
 - Tier 2 Orbital Sniper
+- Like an Artemis, with big splash
+- Slower turn rate and range
+
+## Additional Tweaks
+##### Strategic Icons
+- All SIs have been changed for now T1 units
+- Orbital fighter style SIs changed from triangles to circles
+- T2 triangle added to Solar Array SI
+- Energy mark removed from Jig SI
+- Omega SI now has support cross and no anti-surface lines

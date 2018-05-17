@@ -1,18 +1,13 @@
-# Monobattles
+# Orbital Fixation
 
-## 0.3.0
+## 0.0.2
 
-- Increased build cost of all turrets and nukes, due to the slower expansion rate of the game.
-- Announce now only runs once.
+- Add Diomedes and Valkyrie. 
+- Balance changes regarding splash.
+- Add new Strategic Icons.
 
-## 0.2.1
+## 0.0.1
 
-- Removed Angel from Unit Roster.
-
-## 0.2.0
-
-- Fixed the bug occurring at first time use.
-
-## 0.1.0
-
-- Initial commit. Includes basic operation and localisation.
+- Initial commit.
+- First pass at balancing existing units. 
+- Add perseid.
