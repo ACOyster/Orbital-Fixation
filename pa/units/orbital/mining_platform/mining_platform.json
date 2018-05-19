@@ -1,6 +1,6 @@
 {
   "TEMP_texelinfo": 72.293,
-  "area_build_separation": 100,
+  "area_build_separation": 1060,
   "area_build_type": "Sphere",
   "atrophy_cool_down": 15.0,
   "atrophy_rate": 50.0,
@@ -177,10 +177,10 @@
     "radius": 20
   },
   "placement_size": [
-    1060,
-    1060
+    100,
+    100
   ],
-  "production": "{\n  \"metal\": 24\n}",
+  "production": {"metal": 30},
   "recon": {
     "observer": {
       "items": [

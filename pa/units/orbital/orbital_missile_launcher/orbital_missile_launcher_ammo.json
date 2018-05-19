@@ -10,9 +10,9 @@
     }
   },
   "flight_type": "Staged",
-  "influence_radius": 40,
+  "influence_radius": 20,
   "initial_velocity": 80.0,
-  "lifetime": 30,
+  "lifetime": 10,
   "max_health": 1,
   "max_velocity": 80.0,
   "physics": {
