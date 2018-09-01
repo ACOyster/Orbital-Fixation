@@ -1,1 +1,106 @@
-{"TEMP_texelinfo":31.6199,"attachable":{"offsets":{"root":[0,0,0]}},"base_spec":"/pa/units/orbital/base_orbital/base_orbital.json","build_metal_cost":1800,"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Attack"],"description":"!LOC:Orbital Bomber- Devastating ground damage over an area. Attacks land, sea and air targets.","display_name":"!LOC:Perseid","events":{"build_complete":{"audio_cue":"/SE/Build_Complete/orbital"},"died":{"audio_cue":"/SE/Death/orbital","effect_scale":1.5,"effect_spec":"/pa/units/air/base_flyer/base_flyer_death_t2.pfx"}},"gravwell_velocity_multiplier":10.0,"guard_layer":"WL_AnySurface","max_health":380,"mesh_bounds":[38,38,40],"model":{"animations":{"closed":"/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_anim_closed.papa","deploy":"/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_anim_deploy.papa","open":"/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_anim_open.papa"},"animtree":"/pa/anim/anim_trees/orbital_missile_launcher_anim_tree.json","filename":"/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher.papa"},"navigation":{"acceleration":20,"brake":20,"hover_time":-1.0,"move_speed":20,"turn_speed":90,"type":"orbital"},"physics":{"gravity_scalar":0.001,"radius":15},"recon":{"observer":{"items":[{"channel":"sight","layer":"surface_and_air","radius":100,"shape":"capsule"},{"channel":"sight","layer":"orbital","radius":100,"shape":"sphere"},{"channel":"sight","layer":"underwater","radius":100,"shape":"capsule"}]}},"selection_icon":{"diameter":46.0},"spawn_layers":"WL_Orbital","tools":[{"aim_bone":"bone_recoil","muzzle_bone":"socket_muzzle","spec_id":"/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_tool_weapon.json"}],"unit_types":["UNITTYPE_Mobile","UNITTYPE_Offense","UNITTYPE_Orbital","UNITTYPE_LaserPlatform","UNITTYPE_FactoryBuild","UNITTYPE_Advanced"]}
+{
+  "TEMP_texelinfo": 31.6199,
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+  "build_metal_cost": 1800,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack"
+  ],
+  "description": "!LOC:Orbital Bomber- Devastating ground damage over an area. Attacks land, sea and air targets.",
+  "display_name": "!LOC:Perseid",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/orbital",
+      "effect_scale": 1.5,
+      "effect_spec": "/pa/units/air/base_flyer/base_flyer_death_t2.pfx"
+    }
+  },
+  "gravwell_velocity_multiplier": 10.0,
+  "guard_layer": "WL_AnySurface",
+  "max_health": 380,
+  "mesh_bounds": [
+    38,
+    38,
+    40
+  ],
+  "model": {
+    "animations": {
+      "closed": "/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_anim_closed.papa",
+      "deploy": "/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_anim_deploy.papa",
+      "open": "/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_anim_open.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/orbital_missile_launcher_anim_tree.json",
+    "filename": "/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher.papa"
+  },
+  "navigation": {
+    "acceleration": 20,
+    "brake": 20,
+    "hover_time": -1.0,
+    "move_speed": 20,
+    "turn_speed": 90,
+    "type": "orbital"
+  },
+  "physics": {
+    "gravity_scalar": 0.001,
+    "radius": 15
+  },
+  "production": {
+    "energy": 300
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "orbital",
+          "radius": 100,
+          "shape": "sphere"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 46.0
+  },
+  "spawn_layers": "WL_Orbital",
+  "tools": [
+    {
+      "aim_bone": "bone_recoil",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_LaserPlatform",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Advanced"
+  ]
+}

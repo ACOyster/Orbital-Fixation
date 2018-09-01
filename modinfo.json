@@ -2,7 +2,7 @@
   "author": "acesoyster",
   "build": "110069",
   "context": "server",
-  "date": "2018-05-17",
+  "date": "2018-09-01",
   "dependencies": [
     "com.wondible.pa.hodgepodge"
   ],
@@ -20,5 +20,5 @@
   "signature": "(not yet implemented)",
   "titansOnly": true,
   "unitList": true,
-  "version": "0.0.2"
+  "version": "0.5.0"
 }

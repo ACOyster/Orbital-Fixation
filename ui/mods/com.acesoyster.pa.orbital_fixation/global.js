@@ -15,6 +15,9 @@ HodgePodge.removeUnits([
         spec_id: '/pa/units/orbital/orbital_lander/orbital_lander.json'
     },
     {
+        spec_id: '/pa/units/orbital/orbital_battleship/orbital_battleship.json'
+    },
+    {
         spec_id: '/pa/units/orbital/orbital_railgun/orbital_railgun.json'
     }
 ])
@@ -49,7 +52,19 @@ HodgePodge.addUnits([
         preferred_builds: [['orbital', 16]]
     },
     {
-        spec_id: '/pa/units/orbital/orbital_railgun_advanced/orbital_railgun_advanced.json',
+        spec_id: '/pa/units/orbital/orbital_battleship/orbital_battleship.json',
         preferred_builds: [['orbital', 10]]
+    },
+    {
+        spec_id: '/pa/units/orbital/orbital_dropship/orbital_dropship.json',
+        preferred_builds: [['orbital', 0]]
+    },
+    {
+        spec_id: '/pa/units/orbital/orbital_fabrication_bot_advanced/orbital_fabrication_bot_advanced.json',
+        preferred_builds: [['orbital', 6]]
+    },
+    {
+        spec_id: '/pa/units/orbital/railgun_defense/railgun_defense.json',
+        preferred_builds: [['combat', 1]]
     }
 ])

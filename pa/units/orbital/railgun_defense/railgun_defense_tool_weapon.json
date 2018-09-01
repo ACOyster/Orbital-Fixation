@@ -1,0 +1,18 @@
+{
+  "ammo_id": "/pa/units/orbital/railgun_defense/railgun_defense_ammo.json",
+  "auto_attack": true,
+  "base_spec": "/pa/tools/base_missile_turret/base_missile_turret.json",
+  "max_range": 100,
+  "pitch_range": 90,
+  "pitch_rate": 360,
+  "rate_of_fire": 0.5,
+  "spread_fire": false,
+  "target_layers": [
+    "WL_Orbital"
+  ],
+  "target_priorities": [
+    "LaserPlatform"
+  ],
+  "yaw_range": 180,
+  "yaw_rate": 360
+}

@@ -180,7 +180,9 @@
     100,
     100
   ],
-  "production": {"metal": 30},
+  "production": {
+    "metal": 30
+  },
   "recon": {
     "observer": {
       "items": [
@@ -203,6 +205,7 @@
     "UNITTYPE_EnergyProduction",
     "UNITTYPE_MetalProduction",
     "UNITTYPE_Structure",
-    "UNITTYPE_Economy"
+    "UNITTYPE_Economy",
+    "UNITTYPE_Advanced"
   ]
 }

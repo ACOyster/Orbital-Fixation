@@ -197,8 +197,10 @@
     "/pa/units/sea/drone_carrier/drone/drone.json",
     "/pa/units/sea/fabrication_barge/fabrication_barge.json",
     "/pa/units/sea/hover_ship/hover_ship.json",
-    "/pa/units/orbital/orbital_railgun_advanced/orbital_railgun_advanced.json",
     "/pa/units/orbital/orbital_missile_launcher/orbital_missile_launcher.json",
-    "/pa/units/orbital/orbital_fighter_advanced/orbital_fighter_advanced.json"
+    "/pa/units/orbital/orbital_fighter_advanced/orbital_fighter_advanced.json",
+    "/pa/units/orbital/orbital_dropship/orbital_dropship.json",
+    "/pa/units/orbital/orbital_fabrication_bot_advanced/orbital_fabrication_bot_advanced.json",
+    "/pa/units/orbital/railgun_defense/railgun_defense.json"
   ]
 }
