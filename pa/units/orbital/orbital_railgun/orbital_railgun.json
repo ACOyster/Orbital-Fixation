@@ -18,7 +18,7 @@
     "ORDER_Assist",
     "ORDER_MassTeleport"
   ],
-  "description": "!LOC:Railgun Platform- Long-range. Very low rate of fire. Attacks orbital.",
+  "description": "!LOC:Railgun Support Platform- Long-range support satellite. Deploys walls at enemy units.",
   "display_name": "Artemis",
   "events": {
     "build_complete": {
@@ -85,8 +85,6 @@
   "spawn_layers": "WL_Orbital",
   "tools": [
     {
-      "aim_bone": "bone_root",
-      "muzzle_bone": "socket_muzzle",
       "spec_id": "/pa/units/orbital/orbital_railgun/orbital_railgun_tool_weapon.json"
     }
   ],

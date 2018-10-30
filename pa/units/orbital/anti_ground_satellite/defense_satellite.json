@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
-  "build_metal_cost": 750,
+  "build_metal_cost": 1500,
   "command_caps": [
     "ORDER_Attack",
     "ORDER_Assist"
@@ -40,7 +40,7 @@
   },
   "gravwell_velocity_multiplier": 6.0,
   "guard_layer": "WL_Orbital",
-  "max_health": 1500,
+  "max_health": 2000,
   "mesh_bounds": [
     23,
     23,
@@ -86,6 +86,17 @@
   "spawn_layers": "WL_Orbital",
   "tools": [
     {
+      "aim_bone": "bone_turret01",
+      "fire_event": "fired0",
+      "muzzle_bone": [
+        "socket_muzzle01_a",
+        "socket_muzzle01_b",
+        "socket_muzzle01_c"
+      ],
+      "record_index": 0,
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_ground.json"
+    },
+    {
       "aim_bone": "bone_turret02",
       "fire_event": "fired1",
       "muzzle_bone": [
@@ -108,10 +119,10 @@
   ],
   "unit_types": [
     "UNITTYPE_Structure",
-    "UNITTYPE_Basic",
     "UNITTYPE_Orbital",
     "UNITTYPE_Defense",
     "UNITTYPE_OrbitalDefense",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FabOrbBuild"
   ],
   "wreckage_health_frac": 0.0

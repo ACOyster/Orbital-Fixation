@@ -34,10 +34,11 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 - Added small energy production
 
 ##### Artemis
-- Damage decreased from 300/shot to 150/shot
+- Is now a support unit, firing walls at enemies
 - Max speed decreased from 30 to 20
 - Health reduced from 350 to 200
 - Cost decreased from 2000 to 450
+- Consumes metal at 20/s
 - Remove energy consumption
 - Changed into a T1 unit
 - Added small energy production
@@ -82,10 +83,11 @@ Changes and Additions to the Orbital Layer that I think add a touch more depth w
 - Increase cost from 3600 metal to 5000 metal
 
 ##### Orbital Launcher
-- Made available in commander buildlist
+- Made available in commander build list
 
 ##### Anchor
-- Damage to orbital increased from 100/shot to 200/shot
+- Damage to orbital decreased from 150/shot to 65/shot
+- Health reduced from 2000 to 1500
 
 ## New Units
 ##### Perseid
